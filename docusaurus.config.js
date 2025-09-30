@@ -5,7 +5,7 @@ const config = {
   title: 'NTK Docs',
   url: 'https://6ftdotexe.github.io',
   baseUrl: '/ntk-docs/',
-  favicon: 'img/logo.png',
+  favicon: 'img/favicon.png', // ✅ custom NTK favicon
 
   presets: [
     [
@@ -22,6 +22,7 @@ const config = {
   ],
 
   themeConfig: {
+    image: 'img/ntk-banner.png', // ✅ social preview banner
     navbar: {
       title: 'NTK',
       logo: { alt: 'NTK', src: 'img/logo.png' },
