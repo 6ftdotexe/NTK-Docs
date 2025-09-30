@@ -3,13 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "docusaurus start",
-    "build": "docusaurus build",
-    "serve": "docusaurus serve",
-    "deploy": "docusaurus deploy",
-    "update-assets": "node scripts/update-assets.js"
-
-  },
+  "start": "npx docusaurus start",
+  "build": "npx docusaurus build",
+  "serve": "npx docusaurus serve",
+  "deploy": "npx docusaurus deploy",
+  "update-assets": "node scripts/update-assets.js"
+},
   "dependencies": {
     "@docusaurus/core": "2.3.1",
     "@docusaurus/preset-classic": "2.3.1",
