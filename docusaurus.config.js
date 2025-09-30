@@ -7,6 +7,20 @@ const config = {
   baseUrl: '/ntk-docs/',
   favicon: 'img/logo.png',
 
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      },
+    ],
+  ],
+
   themeConfig: {
     navbar: {
       title: 'NTK',
@@ -27,7 +41,7 @@ const config = {
   plugins: [
     [
       require.resolve('@cmfcmf/docusaurus-search-local'),
-      { indexDocs: true, indexPages: true }
+      { indexDocs: true, indexPages: true },
     ],
   ],
 };
