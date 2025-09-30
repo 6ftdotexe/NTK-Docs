@@ -17,8 +17,13 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install Dependencies
-        run: npm install
+      - name: Clean Install Dependencies
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install
+
+      - name: Update Assets Page
+        run: npm run update-assets
 
       - name: Build Docusaurus
         run: npm run build
