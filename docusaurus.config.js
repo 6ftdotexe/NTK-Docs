@@ -31,19 +31,19 @@ const config = {
         {
           href: 'https://github.com/6ftdotexe/ntk-docs/releases/latest/download/ntk-docs-package.zip',
           label: 'Download',
-          position: 'right'
+          position: 'right',
         },
-        { href: 'https://github.com/6ftdotexe/ntk-docs', label: 'GitHub', position: 'right' }
+        { href: 'https://github.com/6ftdotexe/ntk-docs', label: 'GitHub', position: 'right' },
       ],
     },
-  },
 
-  plugins: [
-    [
-      require.resolve('@cmfcmf/docusaurus-search-local'),
-      { indexDocs: true, indexPages: true },
-    ],
-  ],
+    // 🔎 Algolia DocSearch integration
+    algolia: {
+      appId: 'KSQ4H3SRLN',                        // ✅ Your App ID
+      apiKey: '92de46b442016dcb11c093a869054137', // ✅ Public Search API Key
+      indexName: 'ntk-docs',                      // ⚠️ Define/crawl this index in Algolia
+    },
+  },
 };
 
 module.exports = config;
