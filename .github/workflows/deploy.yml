@@ -30,32 +30,20 @@ jobs:
           publish_dir: ./build
 
   release:
+    needs: build-deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
 
       - name: Package Docs Bundle
-        run: |
-          mkdir -p out
-          zip -r out/ntk-docs-package.zip docs static
+        run: zip -r ntk-docs-package.zip docs static
 
-      - name: Create/Update Versioned Release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: ${{ github.sha }}
-          name: "NTK Docs Release"
-          files: out/ntk-docs-package.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Update Latest Release
+      - name: Upload Release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: latest
-          name: "NTK Docs Latest"
-          files: out/ntk-docs-package.zip
-          draft: false
-          prerelease: false
+          name: NTK Docs Latest
+          files: ntk-docs-package.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
