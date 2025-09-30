@@ -1,0 +1,23 @@
+{
+  "unversionedId": "DIAGRAMS",
+  "id": "DIAGRAMS",
+  "title": "Diagrams",
+  "description": "System and class diagrams.",
+  "source": "@site/docs/DIAGRAMS.md",
+  "sourceDirName": ".",
+  "slug": "/DIAGRAMS",
+  "permalink": "/ntk-docs/docs/DIAGRAMS",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Changelog",
+    "permalink": "/ntk-docs/docs/CHANGELOG"
+  },
+  "next": {
+    "title": "Game Modes",
+    "permalink": "/ntk-docs/docs/GAME_MODES"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "HOME",
+  "id": "HOME",
+  "title": "NTK Docs (Need To Know)",
+  "description": "Welcome to the NTK tactical FPS documentation portal.",
+  "source": "@site/docs/HOME.md",
+  "sourceDirName": ".",
+  "slug": "/HOME",
+  "permalink": "/ntk-docs/docs/HOME",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Game Modes",
+    "permalink": "/ntk-docs/docs/GAME_MODES"
+  },
+  "next": {
+    "title": "Weapons",
+    "permalink": "/ntk-docs/docs/WEAPONS"
+  }
+}

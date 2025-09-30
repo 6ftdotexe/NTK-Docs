@@ -1,0 +1,23 @@
+{
+  "unversionedId": "GAME_MODES",
+  "id": "GAME_MODES",
+  "title": "Game Modes",
+  "description": "Modes overview.",
+  "source": "@site/docs/GAME_MODES.md",
+  "sourceDirName": ".",
+  "slug": "/GAME_MODES",
+  "permalink": "/ntk-docs/docs/GAME_MODES",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Diagrams",
+    "permalink": "/ntk-docs/docs/DIAGRAMS"
+  },
+  "next": {
+    "title": "NTK Docs (Need To Know)",
+    "permalink": "/ntk-docs/docs/HOME"
+  }
+}

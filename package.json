@@ -6,7 +6,9 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "serve": "docusaurus serve",
-    "deploy": "docusaurus deploy"
+    "deploy": "docusaurus deploy",
+    "update-assets": "node scripts/update-assets.js"
+
   },
   "dependencies": {
     "@docusaurus/core": "2.3.1",

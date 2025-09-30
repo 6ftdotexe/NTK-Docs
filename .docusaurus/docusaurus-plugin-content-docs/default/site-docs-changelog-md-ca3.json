@@ -1,0 +1,23 @@
+{
+  "unversionedId": "CHANGELOG",
+  "id": "CHANGELOG",
+  "title": "Changelog",
+  "description": "See Releases for latest.",
+  "source": "@site/docs/CHANGELOG.md",
+  "sourceDirName": ".",
+  "slug": "/CHANGELOG",
+  "permalink": "/ntk-docs/docs/CHANGELOG",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Assets",
+    "permalink": "/ntk-docs/docs/ASSETS"
+  },
+  "next": {
+    "title": "Diagrams",
+    "permalink": "/ntk-docs/docs/DIAGRAMS"
+  }
+}

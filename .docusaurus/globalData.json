@@ -1,0 +1,63 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/ntk-docs/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/ntk-docs/docs",
+          "mainDocId": "ASSETS",
+          "docs": [
+            {
+              "id": "ASSETS",
+              "path": "/ntk-docs/docs/ASSETS",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "CHANGELOG",
+              "path": "/ntk-docs/docs/CHANGELOG",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "DIAGRAMS",
+              "path": "/ntk-docs/docs/DIAGRAMS",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "downloads",
+              "path": "/ntk-docs/docs/downloads",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "GAME_MODES",
+              "path": "/ntk-docs/docs/GAME_MODES",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "HOME",
+              "path": "/ntk-docs/docs/HOME",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "WEAPONS",
+              "path": "/ntk-docs/docs/WEAPONS",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/ntk-docs/docs/ASSETS",
+                "label": "ASSETS"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

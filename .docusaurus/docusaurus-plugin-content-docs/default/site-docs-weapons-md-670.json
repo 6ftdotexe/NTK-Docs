@@ -1,0 +1,23 @@
+{
+  "unversionedId": "WEAPONS",
+  "id": "WEAPONS",
+  "title": "Weapons",
+  "description": "Weapons overview.",
+  "source": "@site/docs/WEAPONS.md",
+  "sourceDirName": ".",
+  "slug": "/WEAPONS",
+  "permalink": "/ntk-docs/docs/WEAPONS",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NTK Docs (Need To Know)",
+    "permalink": "/ntk-docs/docs/HOME"
+  },
+  "next": {
+    "title": "<span style={{color:'#FFD600'}}>Downloads</span>",
+    "permalink": "/ntk-docs/docs/downloads"
+  }
+}

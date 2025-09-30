@@ -1,0 +1,19 @@
+{
+  "unversionedId": "ASSETS",
+  "id": "ASSETS",
+  "title": "Assets",
+  "description": "This page collects NTK diagrams, logos, and visuals.",
+  "source": "@site/docs/ASSETS.md",
+  "sourceDirName": ".",
+  "slug": "/ASSETS",
+  "permalink": "/ntk-docs/docs/ASSETS",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Changelog",
+    "permalink": "/ntk-docs/docs/CHANGELOG"
+  }
+}

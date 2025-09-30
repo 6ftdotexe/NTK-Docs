@@ -1,0 +1,19 @@
+{
+  "unversionedId": "downloads",
+  "id": "downloads",
+  "title": "<span style={{color:'#FFD600'}}>Downloads</span>",
+  "description": "Download bundles here.",
+  "source": "@site/docs/downloads.mdx",
+  "sourceDirName": ".",
+  "slug": "/downloads",
+  "permalink": "/ntk-docs/docs/downloads",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Weapons",
+    "permalink": "/ntk-docs/docs/WEAPONS"
+  }
+}
