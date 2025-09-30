@@ -3,17 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-  "start": "npx docusaurus start",
-  "build": "npx docusaurus build",
-  "serve": "npx docusaurus serve",
-  "deploy": "npx docusaurus deploy",
-  "update-assets": "node scripts/update-assets.js"
-},
+    "start": "node ./node_modules/@docusaurus/core/bin/docusaurus.js start",
+    "build": "node ./node_modules/@docusaurus/core/bin/docusaurus.js build",
+    "serve": "node ./node_modules/@docusaurus/core/bin/docusaurus.js serve",
+    "deploy": "node ./node_modules/@docusaurus/core/bin/docusaurus.js deploy",
+    "update-assets": "node scripts/update-assets.js"
+  },
   "dependencies": {
     "@docusaurus/core": "2.3.1",
     "@docusaurus/preset-classic": "2.3.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "@cmfcmf/docusaurus-search-local": "^0.9.4"
+    "react-dom": "17.0.2"
   }
 }
+
