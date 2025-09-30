@@ -1,7 +1,6 @@
 # Assets
 
-This page collects NTK diagrams, logos, and visuals.  
-All assets are stored in `/static/assets/` and linked below.
+This page collects NTK diagrams, logos, and visuals.
 
 ---
 
@@ -12,22 +11,13 @@ All assets are stored in `/static/assets/` and linked below.
 - ![AI Controller](/assets/MyAIController.png)
 - ![Weapon Base](/assets/WeaponBase.png)
 - ![Weapon Manager](/assets/WeaponManagerComponent.png)
+- ![Player State](/assets/MyPlayerState.png)
 - ![Player Character](/assets/PlayerCharacter.png)
+- ![Game Mode](/assets/MyGameMode.png)
 - ![Enemy Character](/assets/EnemyCharacter.png)
 
 ---
 
-## 🎨 Concept Visuals
+## 🎨 Logos
 
-- Tactical Operators (side-by-side renders)  
-  ![Operators](/assets/SomeOperatorImage.png)
-
-- NTK Logo Variants  
-  ![Logo Variant](/assets/logo_variant.png)
-
----
-
-## 📥 Downloads
-
-All reports, diagrams, and packages are also available in the  
-👉 [**Downloads page**](/docs/downloads).
+- ![NTK Logo](/img/logo.png)
