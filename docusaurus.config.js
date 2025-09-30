@@ -19,7 +19,7 @@ const config = {
           label: 'Download',
           position: 'right'
         },
-        { href: 'https://github.com/6ftdotexe/ntk-docs', label: 'GitHub', position: 'right' },
+        { href: 'https://github.com/6ftdotexe/ntk-docs', label: 'GitHub', position: 'right' }
       ],
     },
   },
@@ -27,7 +27,7 @@ const config = {
   plugins: [
     [
       require.resolve('@cmfcmf/docusaurus-search-local'),
-      { indexDocs: true, indexPages: true },
+      { indexDocs: true, indexPages: true }
     ],
   ],
 };
