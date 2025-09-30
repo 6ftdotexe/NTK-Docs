@@ -20,4 +20,4 @@ NTK is structured into modular systems for scalability and maintainability.
 - ![Player Character](/assets/PlayerCharacter.png)  
 - ![Enemy Character](/assets/EnemyCharacter.png)  
 - ![Weapon Base](/assets/WeaponBase.png)  
-- ![Weapon Manager](/assets/WeaponManagerComponent.png)
+- ![Weapon Manager](/assets/WeaponManagerComponent.png)  

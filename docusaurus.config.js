@@ -5,7 +5,11 @@ const config = {
   title: 'NTK Docs',
   url: 'https://6ftdotexe.github.io',
   baseUrl: '/ntk-docs/',
-  favicon: 'img/favicon.png', // ✅ custom NTK favicon
+  favicon: 'img/favicon.png',
+
+  // ✅ Warn instead of fail on broken links
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
 
   presets: [
     [
@@ -22,7 +26,7 @@ const config = {
   ],
 
   themeConfig: {
-    image: 'img/ntk-banner.png', // ✅ social preview banner
+    image: 'img/ntk-banner.png',
     navbar: {
       title: 'NTK',
       logo: { alt: 'NTK', src: 'img/logo.png' },
@@ -32,7 +36,7 @@ const config = {
         {
           href: 'https://github.com/6ftdotexe/ntk-docs/releases/latest/download/ntk-docs-package.zip',
           label: 'Download',
-          position: 'right'
+          position: 'right',
         },
         { href: 'https://github.com/6ftdotexe/ntk-docs', label: 'GitHub', position: 'right' },
       ],

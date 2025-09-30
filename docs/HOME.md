@@ -15,11 +15,11 @@ NTK (*Need To Know*) is a tactical first-person shooter project designed for:
 ---
 
 ## 🚀 Quick Links
-- [Setup Guide](./SETUP.md) → Build & run NTK locally  
-- [Architecture](./ARCHITECTURE.md) → Systems overview with diagrams  
-- [Game Modes](./GAME_MODES.md) → Tactical breakdowns  
-- [Weapons](./WEAPONS.md) → Stats & customization  
-- [Assets](./ASSETS.md) → Visual diagrams & logos  
+- [Setup Guide](./SETUP)  
+- [Architecture](./ARCHITECTURE)  
+- [Game Modes](./GAME_MODES)  
+- [Weapons](./WEAPONS)  
+- [Assets](./ASSETS)  
 
 ---
 
