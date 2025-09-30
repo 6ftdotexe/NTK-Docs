@@ -22,14 +22,14 @@ export default function Home() {
           <Link
             className="button button--secondary"
             style={{ marginLeft: '1rem' }}
-            to="/assets/"
+            to="/docs/ASSETS"
           >
             Browse Assets
           </Link>
           <Link
             className="button button--primary"
             style={{ marginLeft: '1rem' }}
-            to="https://github.com/6ftdotexe/ntk-docs/releases/latest/download/ntk-docs-package.zip"
+            href="https://github.com/6ftdotexe/ntk-docs/releases/latest/download/ntk-docs-package.zip"
           >
             Download NTK Bundle
           </Link>
