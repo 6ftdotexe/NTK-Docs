@@ -41,7 +41,7 @@ export default function Home() {
                 Game Modes, Characters, Weapons, and State Management — structured for scalability
                 and clean dev workflows.
               </p>
-              <Link to="/docs/ARCHITECTURE.md">Learn more →</Link>
+              <Link to="/docs/ARCHITECTURE">Learn more →</Link>
             </div>
 
             <div className="card">
@@ -50,7 +50,7 @@ export default function Home() {
                 Modular weapon base with optics, barrels, grips, and magazines for tactical
                 loadouts.
               </p>
-              <Link to="/docs/WEAPONS.md">Weapon system →</Link>
+              <Link to="/docs/WEAPONS">Weapon system →</Link>
             </div>
 
             <div className="card">
@@ -59,7 +59,7 @@ export default function Home() {
                 Team Deathmatch, Domination, Extraction — powered by AI controllers for adaptive
                 combat.
               </p>
-              <Link to="/docs/GAME_MODES.md">Game modes →</Link>
+              <Link to="/docs/GAME_MODES">Game modes →</Link>
             </div>
           </div>
         </section>
