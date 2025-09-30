@@ -1,1 +1,137 @@
-:root{--ifm-color-primary:#FFD600;}
+:root {
+  --ifm-color-primary: #ffd600;
+  --ifm-color-primary-dark: #e6c100;
+  --ifm-color-primary-light: #ffdf33;
+  --ifm-font-family-base: "Inter", "Segoe UI", sans-serif;
+
+  /* Sidebar + navbar tweaks */
+  --ifm-menu-color: #eee;
+  --ifm-navbar-link-color: #eee;
+  --ifm-navbar-background-color: #1a1a1a;
+  --ifm-menu-color-active: var(--ifm-color-primary);
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #0f0f0f;
+  --ifm-footer-background-color: #1a1a1a;
+}
+
+/* Hero Banner */
+.heroBanner {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(180deg, #0f0f0f 0%, #1a1a1a 100%);
+  color: white;
+}
+
+.heroBanner h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.heroBanner p {
+  font-size: 1.2rem;
+  color: #bbb;
+}
+
+.heroButtons .button {
+  margin: 0.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* Buttons */
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border: none;
+  color: #000 !important;
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+.button--secondary {
+  border: 2px solid var(--ifm-color-primary);
+  color: var(--ifm-color-primary) !important;
+  background: transparent;
+}
+
+.button--secondary:hover {
+  background: var(--ifm-color-primary);
+  color: #000 !important;
+}
+
+/* Feature Cards */
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.featuresGrid .card {
+  background: #1a1a1a;
+  color: #eee;
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.featuresGrid .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Sidebar */
+.menu {
+  background: #111;
+}
+
+.menu__link {
+  color: #ddd;
+}
+
+.menu__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+.menu__link--active {
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+}
+
+/* Docs content */
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  color: var(--ifm-color-primary);
+}
+
+.markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background: #1a1a1a;
+  color: #eee;
+}
+
+.markdown table th,
+.markdown table td {
+  border: 1px solid #333;
+  padding: 0.5rem 1rem;
+  text-align: left;
+}
+
+.markdown code {
+  background: #222;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  color: var(--ifm-color-primary);
+}
+
+.markdown pre {
+  background: #1a1a1a !important;
+  border-radius: 8px;
+  padding: 1rem;
+}
