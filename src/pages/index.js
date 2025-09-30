@@ -1,0 +1,1 @@
+import React from 'react';import Link from '@docusaurus/Link';import Layout from '@docusaurus/Layout';export default function Home(){return(<Layout title='NTK Docs'><main><h1>NTK Documentation</h1></main></Layout>);}

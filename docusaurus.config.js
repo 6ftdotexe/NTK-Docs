@@ -1,0 +1,1 @@
+export default { title:'NTK Docs', url:'https://6ftdotexe.github.io', baseUrl:'/ntk-docs/', favicon:'img/logo.png' };
